@@ -1,0 +1,15 @@
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+nav ul li{
+    padding: 100px;
+}
+
+.Home{
+    background-image:url("car.png");
+    height: 500px;
+    background-position: center;
+}
