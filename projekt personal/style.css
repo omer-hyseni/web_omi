@@ -2,14 +2,50 @@ nav ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 3px solid darkblue;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 nav ul li{
-    padding: 100px;
+    padding:20px;
+    
+}
+ul img{
+    margin-right:100px;
+}
+.Home{
+    background-image:url("bg.jpeg");
+    background-position: center;
+    height:700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.Home{
-    background-image:url("car.png");
-    height: 500px;
-    background-position: center;
+.Home {
+    color:blanchedalmond;
 }
+
+nav{
+   
+    font-family: "Black Ops One", system-ui;
+}
+
+.left{
+    color:antiquewhite;
+}
+
+.left{
+    margin-right: 200px;
+    flex-direction: column;
+}
+
