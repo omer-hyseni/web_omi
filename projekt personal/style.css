@@ -49,3 +49,21 @@ nav{
     flex-direction: column;
 }
 
+.right{
+    flex-direction: column;
+}
+
+#paragraph1 {
+    color:blue;
+}
+
+#paragreph2{
+    color:red;
+}
+
+.main{
+    flex-direction: row;
+}
+
+
+
