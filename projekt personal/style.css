@@ -32,7 +32,7 @@ ul img{
 }
 
 .Home {
-    color:blanchedalmond;
+    color:white;
 }
 
 nav{
@@ -41,7 +41,7 @@ nav{
 }
 
 .left{
-    color:antiquewhite;
+    color:white;
 }
 
 .left{
@@ -64,6 +64,45 @@ nav{
 .main{
     flex-direction: row;
 }
+
+#paragraph4{
+    color:rgb(177, 177, 1);
+}
+
+.card{
+border:3px solid red;
+width:28%;
+justify-content:center;
+margin-right: 150px;
+text-align: center;
+background-color: blue;
+height: 100%;
+}
+
+.main {
+    display: flex;
+}
+
+button {
+    color:white;
+    background-color: red;
+    border-radius:10px;
+    border:3px solid red;
+    padding :10px;
+    margin:20px;
+}
+
+h1{
+    color:white;
+}
+
+p{
+    color:white;
+}
+
+
+
+
 
 
 
