@@ -40,6 +40,24 @@ button.onclick=function(){
     h1.style.textAlign="center"
 }
 
+button6.onclick=function(){
+    h2.style.color='red';
+    h2.style.backgroundColor='blue';
+    h2.style.fontSize="100px";
+    h2.style.padding="20px";
+    h2.style.textAlign="center"
+}
+
+btn6.onclick=function(){
+   btn6.setAtribute("class","btn6")
+}
+
+btn7.onclick=function(){
+   text.srtAttribute("class","txt2")
+}
+
+
+
 
 
 
