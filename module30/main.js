@@ -13,6 +13,6 @@ var button=document.getElementById("button1")
 var text=document.getElementById("h11")
 
 
-parseInt(input1.value) + parseInt(input2.value){
-    text.innerHTML = input1.value + input2.value
-}
+//parseInt(input1.value) + parseInt(input2.value){
+//    text.innerHTML = input1.value + input2.value
+//}
