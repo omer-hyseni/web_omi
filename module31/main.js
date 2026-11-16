@@ -30,3 +30,49 @@ for(x in person){
 }
 
 console.log(text3)
+
+
+var names=["Omer","Jon","Adriatik","Erin"]
+var o;
+var text = "shokt e mi";
+
+for(o of names ){
+  
+    document.write(o + '<br>')
+}
+
+var text=['J','a','v','q','s','c','h','r','o','x']
+var y;
+
+for(y of text){
+   document.write(y + "<br>")
+}
+
+let n=0;
+
+do {
+    n+=1;
+    console.log(n)
+
+}while(n<5)
+
+
+let e=0;
+let r=0;
+
+while(e<3){
+    e++;
+    r+=3;
+console.log(e)
+console.log(r)
+}
+
+var phone=["Iphone","Samsung","Android"]
+var s;
+var text4 = " ";
+
+for(var s=0;s<phone.length; s++){
+    text4+= phone[s] + " "
+}
+
+console.log(text4);
