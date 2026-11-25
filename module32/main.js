@@ -1,6 +1,3 @@
-
-
-
 var text ="the best school in prishtina is DS";
 var result = text.search(/DIGITAL SCHOOL/);
 document.getElementById("result2").innerHTML=result;
@@ -29,3 +26,21 @@ document.getElementById("result5").innerHTML=text.match(regex2)
 
 var regex2= /e+/g;
 document.getElementById("result5").innerHTML=text.match(regex2)
+
+var text ="hi hi hi hi hi hi hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii ";
+var redex=/hi/g;
+document.getElementById("result").innerHTML=text.match(regex)
+
+var redex=/i{2,5}/g;
+document.getElementById("result").innerHTML=text.match(regex)
+
+var text="hello hello hello"
+var redex=/ello$/g;
+document.getElementById("result5").innerHTML=text.match(regex)
+
+var text="hi hi hih i hi"
+var redex=/^hi/g;
+document.getElementById("result5").innerHTML=text.match(regex)
+
+
+
